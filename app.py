@@ -7,10 +7,7 @@ from flask import request,redirect, url_for
 app =  Flask(__name__)
 
 db = connector.connect(
-    host = 'localhost',
-    user = 'root',
-    passwd = '',
-    database = 'db_kuliah01'
+    user="bismillahtakehome", password="W6ALd+AV[_ogEu9", host="takehome.mysql.database.azure.com", port=3306, database="db_kuliah01"
 )
 if db.is_connected():
     print('open connection successful')
